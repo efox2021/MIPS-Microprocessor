@@ -1,0 +1,72 @@
+Model Technology ModelSim DE-64 vcom 10.7b Compiler 2018.06 Jun  8 2018
+Start time: 17:19:57 on Dec 12,2019
+vcom -2008 -work ModelSimWork/work ModelSimWork/src/*.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALU32Bit
+-- Compiling architecture structural of ALU32Bit
+-- Compiling entity ALUBit0to30
+-- Compiling architecture dataflow of ALUBit0to30
+-- Compiling entity ALUBit31
+-- Compiling architecture dataflow of ALUBit31
+-- Compiling entity control
+-- Compiling architecture behavior of control
+-- Compiling entity decoder32to5
+-- Compiling architecture dataflow of decoder32to5
+-- Compiling entity dff
+-- Compiling architecture mixed of dff
+-- Loading package NUMERIC_STD
+-- Compiling entity EXMEMReg
+-- Compiling architecture description of EXMEMReg
+-- Compiling entity extender
+-- Compiling architecture dataflow of extender
+-- Compiling entity forward_unit
+-- Compiling architecture behavior of forward_unit
+-- Compiling entity fullALU
+-- Compiling architecture structural of fullALU
+-- Compiling entity hazard_detect
+-- Compiling architecture behavior of hazard_detect
+-- Compiling entity hazard_detection
+-- Compiling architecture behavior of hazard_detection
+-- Compiling entity IDEXReg
+-- Compiling architecture description of IDEXReg
+-- Compiling entity IFIDReg
+-- Compiling architecture description of IFIDReg
+-- Compiling entity mem
+-- Compiling architecture rtl of mem
+-- Compiling entity MEMWBReg
+-- Compiling architecture description of MEMWBReg
+-- Compiling entity MIPS_Processor
+-- Compiling architecture structure of MIPS_Processor
+** Warning: ModelSimWork/src/mipspipe.vhd(498): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+-- Compiling entity MIPS_Processor
+-- Compiling architecture structure of MIPS_Processor
+** Warning: ModelSimWork/src/MIPS_Processor.vhd(677): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+-- Compiling package mux32BitArray
+-- Loading package mux32BitArray
+-- Compiling entity mux32to1
+-- Compiling architecture dataflow of mux32to1
+-- Compiling entity mux_df
+-- Compiling architecture dataflow of mux_df
+-- Compiling entity hazard_detection
+-- Compiling entity reg
+-- Compiling architecture structural of reg
+-- Compiling entity register32
+-- Compiling architecture description of register32
+-- Compiling entity registerFile
+-- Compiling architecture structural of registerFile
+-- Compiling entity shifter
+-- Compiling architecture behavior of shifter
+-- Compiling entity tb_pipelineRegisters
+-- Compiling architecture behavior of tb_pipelineRegisters
+** Warning: ModelSimWork/src/tb_pipelineRegisters.vhd(182): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+** Warning: ModelSimWork/src/tb_pipelineRegisters.vhd(194): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+** Warning: ModelSimWork/src/tb_pipelineRegisters.vhd(206): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+** Warning: ModelSimWork/src/tb_pipelineRegisters.vhd(218): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+-- Loading package std_logic_textio
+-- Loading package ENV
+-- Compiling entity tb_SimplifiedMIPSProcessor
+-- Compiling architecture mixed of tb_SimplifiedMIPSProcessor
+End time: 17:19:58 on Dec 12,2019, Elapsed time: 0:00:01
+Errors: 0, Warnings: 6

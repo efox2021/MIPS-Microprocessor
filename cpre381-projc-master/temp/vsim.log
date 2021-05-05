@@ -1,0 +1,64 @@
+Reading C:/modelsim_dlx64_10.7b/tcl/vsim/pref.tcl
+
+# 10.7b
+
+# vsim -c tb_SimplifiedMIPSProcessor -do "modelsim_framework2.do" 
+# Start time: 17:20:00 on Dec 12,2019
+# //  ModelSim DE-64 10.7b Jun  8 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim DE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_simplifiedmipsprocessor(mixed)
+# Loading work.mips_processor(structure)
+# Loading ieee.numeric_std(body)
+# Loading work.mem(rtl)
+# Loading work.ifidreg(description)
+# Loading work.register32(description)
+# Loading work.fullalu(structural)
+# Loading work.shifter(behavior)
+# Loading work.alu32bit(structural)
+# Loading work.alubit0to30(dataflow)
+# Loading work.alubit31(dataflow)
+# Loading work.mux_df(dataflow)
+# Loading work.control(behavior)
+# Loading work.mux32bitarray
+# Loading work.registerfile(structural)
+# Loading work.decoder32to5(dataflow)
+# Loading work.mux32to1(dataflow)
+# Loading work.idexreg(description)
+# Loading work.forward_unit(behavior)
+# Loading work.hazard_detect(behavior)
+# Loading work.extender(dataflow)
+# Loading work.exmemreg(description)
+# Loading work.memwbreg(description)
+# do modelsim_framework2.do
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_simplifiedmipsprocessor/MySimplifiedMIPSProcess/registers/mux2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_simplifiedmipsprocessor/MySimplifiedMIPSProcess/registers/mux1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_simplifiedmipsprocessor/MySimplifiedMIPSProcess/DMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_simplifiedmipsprocessor/MySimplifiedMIPSProcess/IMem
+# ** Note: Data structure takes 14534752 bytes of memory
+#          Process time 0.05 seconds
+#          stop
+#    Time: 1600 ns  Iteration: 1  Instance: /tb_simplifiedmipsprocessor
+# Break in Process P_DUMP_STATE at J:/ehrenfox/Desktop/cpre381-projc/ModelSimWork/src/tb_SimplifiedMIPSProcessor.vhd line 140
+# Stopped at J:/ehrenfox/Desktop/cpre381-projc/ModelSimWork/src/tb_SimplifiedMIPSProcessor.vhd line 140
+# End time: 17:20:01 on Dec 12,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 4

@@ -1,0 +1,24 @@
+--------------------------------------------------------------------------------
+-- Ehren Fox & Ethan McGill 
+-- Department of Electrical and Computer Engineering
+-- Iowa State University
+--
+--------------------------------------------------------------------------------
+
+-- String Filler Function
+--------------------------------------------------------------------------------
+-- DESCRIPTION: This file contains a helper function that allows us to fill a 
+-- signal of type string with values. This is helpful because on modelSim we can
+-- output the name of what is happening at a given time in a test bench. 
+--
+--------------------------------------------------------------------------------
+
+signal info : string(1 to 20);
+
+  function string_fill(msg : string; len : natural) return string is
+    variable res_v : string(1 to len);
+  begin
+    res_v := (others => ' ');  -- Fill with spaces to blank all for a start
+    res_v(1 to msg'length) := msg;
+    return res_v;
+  end function;
